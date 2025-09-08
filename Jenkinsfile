@@ -17,8 +17,12 @@ pipeline{
                     steps{
                          echo 'Building'
                           }
-                        }
-                       }
-                    }
-
+                      }
+           stage('Test'){
+                     steps{
+                         echo 'Run testing'
+                          }
+                   }
+              }
+ }
     
