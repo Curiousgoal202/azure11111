@@ -13,5 +13,12 @@ pipeline{
                          git branch: 'master', url:'https://github.com/Curiousgoal202/azure11111.git'
                          }
                   }
-      }
-}    
+           stage('Build'){
+                    steps{
+                         echo 'Building'
+                          }
+                        }
+                       }
+                    }
+
+    
